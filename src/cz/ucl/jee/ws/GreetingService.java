@@ -12,7 +12,9 @@ public class GreetingService {
 
 	public GreetingService() {		
 	}
-	
+
+	//TODO show complex Java objects as both input and output
+
 	@WebMethod
 	@WebResult(name="greetings")
     public String sayHello(@WebParam(name="name") String name) {
